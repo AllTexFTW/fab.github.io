@@ -1,2 +1,2 @@
 # AllTexFTW.github.io
-Fab Calculator
+Calculates the estimated time to complete a fab job
