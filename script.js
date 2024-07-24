@@ -32,7 +32,7 @@ function calculate() {
     var cutTime = 5;
     var thrdTime = 6;
     var grvTime = 6;
-    var totalTime = (cutTime * cuts + thrdTime * thrds + grvTime * grv)
+    var totalTime = ((cutTime * cuts + thrdTime * thrds + grvTime * grv) + buffer)
     alert("Estimated time: " + totalTime + " minutes" )
   }
   if (pSize == 8 || pSize == 10 && schedule == "STD") {
@@ -83,7 +83,7 @@ function calculate() {
     var cutTime = 5;
     var thrdTime = 6;
     var grvTime = 6;
-    var totalTime = (cutTime * cuts + thrdTime * thrds + grvTime * grv)
+    var totalTime = ((cutTime * cuts + thrdTime * thrds + grvTime * grv) + buffer)
     alert("Estimated time: " + totalTime + " minutes" )
   }
   if (pSize == 8 || pSize == 10 && schedule == "STD") {
