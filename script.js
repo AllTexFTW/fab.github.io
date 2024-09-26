@@ -4,7 +4,7 @@ function calculate() {
   var thrds = document.getElementById("thrds").value;
   var grv = document.getElementById("grv").value;
   var schedule = document.getElementById("scheudle").value;
-  var buffer = 45;
+  var buffer = 15;
 
   //Calculate time for STD pipe
   if (pSize == "0.5" || pSize == 1 || pSize == "0.75" && schedule == "STD") {
